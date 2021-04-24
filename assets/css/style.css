@@ -1,0 +1,108 @@
+:root {
+    --green: rgb(93, 214, 164);
+    --black: #0d1117;
+    --white: white;
+}
+
+#green {
+    color: var(--green);
+}
+
+body {
+    background-color: var(--black);
+}
+
+.nav {
+    justify-content: center;
+}
+
+
+.header {
+    color: var(--green);
+}
+
+
+
+h1 {
+    color: var(--white);
+}
+
+a {
+    color: var(--black);
+    font-size: 20px;
+}
+
+p {
+    color: var(--white);
+}
+
+header {
+    background-image: url("https://jessicaroots.com/wp-content/uploads/2018/03/portfolio-background-header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 100px;
+}
+
+#image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#image {
+    margin-top: 20px;
+    border-radius: 50%;
+    padding: 0;
+    width: 100%;
+    max-width: 500px;
+}
+
+#AboutMe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#MyWork {
+    background-image: url("https://jessicaroots.com/wp-content/uploads/2018/03/portfolio-background-header.jpg");
+    padding-bottom: 50px;
+}
+
+#title {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    font-weight: bold;
+}
+
+.card {
+    border: solid var(--black);
+    border-width: thick;
+    background-color: var(--black);
+    margin-bottom: 20px;
+}
+
+.card-title {
+    color: var(--white);
+}
+
+#links {
+    color: var(--green);
+}
+
+
+
+#f-title {
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+}
+
+#footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
