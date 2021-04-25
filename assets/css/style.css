@@ -57,6 +57,10 @@ header {
     max-width: 500px;
 }
 
+#image1 {
+    max-width: 400px;
+}
+
 #AboutMe {
     display: flex;
     flex-direction: column;
